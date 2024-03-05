@@ -44,7 +44,8 @@ library
     lifted-base      >= 0.2,
     monad-control    >= 1.0,
     sdl2             >= 2.0,
-    template-haskell,
+    template-haskell >=2.8 && <3,
+    template-haskell-compat-v0208 >=0.1.4 && <2,
     text,
     vector           >= 0.10.9.0
 
